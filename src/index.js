@@ -66,7 +66,7 @@ function decode(expr) {
                 key == arrayExprWithoutSpace[i]? arrayExprElment.push(table_morse[key]): ''
              }
         }
- return   arrayExprElment;
+ return   arrayExprElment.join(' ');
     }
 
 module.exports = {
